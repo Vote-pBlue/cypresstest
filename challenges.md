@@ -67,6 +67,14 @@ Let me know when your pull request is ready — looking forward to reviewing it!
 
 ## Common GIT commands
 
+Create a new branch
+
+- git checkout -b {branchname}
+
+Change to existing branches
+
+- git checkout {branchname} eg. git checkout main takes you to the main branch
+
 Stage an entire file based on the path
 
 - git add {filename}
