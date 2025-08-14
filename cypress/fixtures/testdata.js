@@ -57,4 +57,23 @@ const footerMenuItems = {
     }
 }
 
-export { leftMenuItems, footerMenuItems };
+const homeMenuItems = {
+
+Home: {
+    url: 'index.htm',
+    title: 'home'
+},
+
+AboutUs: {
+    url: 'about.htm',
+    title: 'about'
+},
+
+Contact: {
+    url: 'contact.htm',
+    title: 'contact'
+}
+
+}
+
+export { leftMenuItems, footerMenuItems, homeMenuItems };

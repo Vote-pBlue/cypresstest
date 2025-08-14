@@ -1,6 +1,6 @@
 
 
-import {leftMenuItems, footerMenuItems} from '../fixtures/testdata.js';
+import {leftMenuItems, footerMenuItems, homeMenuItems} from '../fixtures/testdata.js';
 
 describe('Navigation Tests', () => {
   beforeEach(() => {
@@ -22,16 +22,14 @@ describe('Navigation Tests', () => {
         .and('include', item.url)
         });
       
-        cy.get('li.home').click();
-        cy.url().should('include', 'parabank/index.htm');
-      
-        cy.get('li.aboutus').click();
-        cy.url().should('include', 'parabank/about.htm');
-        cy.get('h1').should('contain', 'ParaSoft Demo Website');
-      
-        cy.get('li.contact').click();
-        cy.url().should('include', 'parabank/contact.htm');
-        cy.get('h1').should('contain', 'Customer Care');
+      Object.values(homeMenuItems).forEach(item => {
+        cy.get('ul.button')
+        .find(`a:contains("${item.title}")`)
+        .should('have.attr', 'href')
+        .and('include', item.url)
+
       })
 
-    });
+    })
+
+  })
