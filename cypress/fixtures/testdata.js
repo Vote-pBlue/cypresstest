@@ -1,22 +1,22 @@
 const leftMenuItems = {
     About: {
-        url: 'https://parabank.parasoft.com/parabank/about.htm',
+        url: 'about.htm',
         title: 'About Us'
     },
     Services: {
-        url: 'https://parabank.parasoft.com/parabank/services.htm',
+        url: 'services.htm',
         title: 'Services'
     },
     Products: {
-        url: 'https://parabank.parasoft.com/parabank/products.htm',
+        url: 'products.jsp',
         title: 'Products'
     },
     Locations: {
-        url: 'https://parabank.parasoft.com/parabank/locations.htm',
+        url: 'contacts.jsp',
         title: 'Locations'
     },
     Admin: {
-        url: 'https://parabank.parasoft.com/parabank/admin.htm',
+        url: 'admin.htm',
         title: 'Admin'
     }
 }
@@ -24,35 +24,35 @@ const leftMenuItems = {
 
 const footerMenuItems = {
     Home: {
-        url: 'https://parabank.parasoft.com/parabank/index.htm',
+        url: 'index.htm',
         title: 'Home'
     },
     About: {
-        url: 'https://parabank.parasoft.com/parabank/about.htm',
+        url: 'about.htm',
         title: 'About Us'
     },
     Services: {
-        url: 'https://parabank.parasoft.com/parabank/services.htm',
+        url: 'services.htm',
         title: 'Services'
     },
     Products: {
-        url: 'https://parabank.parasoft.com/parabank/products.htm',
+        url: 'products.jsp',
         title: 'Products'
     },
     Locations: {
-        url: 'https://parabank.parasoft.com/parabank/locations.htm',
+        url: 'contacts.jsp',
         title: 'Locations'
     },
     Forum: {
-        url: 'https://parabank.parasoft.com/parabank/forum.htm',
+        url: 'forums.parasoft.com',
         title: 'Forum'
     },
     SiteMap: {
-        url: 'https://parabank.parasoft.com/parabank/sitemap.htm',
+        url: 'sitemap.htm',
         title: 'Site Map'
     },
     Contact: {
-        url: 'https://parabank.parasoft.com/parabank/contact.htm',
+        url: 'contact.htm',
         title: 'Contact Us'
     }
 }
