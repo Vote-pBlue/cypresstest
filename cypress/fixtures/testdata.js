@@ -76,4 +76,63 @@ Contact: {
 
 }
 
-export { leftMenuItems, footerMenuItems, homeMenuItems };
+const userData = {
+
+firstName: {
+    input: 'customer.firstName',
+    type: 'firstName'
+},
+
+lastName: {
+    input: 'customer.lastName',
+    type: 'lastName'
+},
+
+address: {
+    input: 'customer.address.street',
+    type: 'address'
+},
+
+city: {
+    input: 'customer.address.city',
+    type: 'city'
+},
+
+state: {
+    input: 'customer.address.state',
+    type: 'state'
+},
+
+zipCode: {
+    input: 'customer.address.zipCode',
+    type: 'zipCode'
+},
+
+phoneNumber: {
+    input: 'customer.phoneNumber',
+    type: 'phoneNumber'
+},
+
+ssn: {
+    input: 'customer.ssn',
+    type: 'ssn'
+},
+
+username: {
+    input: 'customer.username',
+    type: 'username'
+},
+
+password: {
+    input: 'customer.password',
+    type: 'password'
+},
+
+repeatPassword: {
+    input: 'repeatedPassword',
+    type: 'password'
+}
+
+}
+
+export { leftMenuItems, footerMenuItems, homeMenuItems, userData };
